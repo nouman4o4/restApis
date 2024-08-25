@@ -1,6 +1,6 @@
 import connectDb from "@/lib/db";
 import { NextResponse } from "next/server";
-import User from "../../../../lib/models/user.model";
+import User from "@/lib/models/user.model";
 
 export const GET = async () => {
   connectDb();
