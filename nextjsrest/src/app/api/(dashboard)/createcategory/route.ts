@@ -8,7 +8,6 @@ export const POST = async (request: Request) => {
   try {
     await connectDb();
     const { title } = await request.json();
-    console.log(title);
     const { searchParams } = new URL(request.url);
     const userId = searchParams.get("userId");
 
