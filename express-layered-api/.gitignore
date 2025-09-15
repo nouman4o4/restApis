@@ -1,0 +1,20 @@
+# Node.js
+node_modules/
+npm-debug.log
+.env
+.DS_Store
+*.log
+/build/
+/dist/
+/tmp/
+
+# Editor/OS specific files
+.vscode/
+.idea/
+Thumbs.db
+
+# Test/Coverage reports
+/coverage/
+
+# Uploaded files (if applicable)
+/uploads/
